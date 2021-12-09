@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  display: flex;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(195, 216, 212);
+  overflow: hidden;
+}
+
+/*UTILIY*/
+.container {
+  max-width: 960px;
+  margin: 2rem auto 0;
+  overflow: hidden;
+}
+
+.logo {
+  width: 170px;
+  cursor: pointer;
+  padding-left: 1.3rem;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(82, 117, 111);
+}
+
+.nav-link {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.get-started {
+  margin: 1.5rem;
+  padding: 4.5rem;
+  text-align: center;
+  background-color: rgb(195, 216, 212);
+}
+
+.get-started h1 {
+  font-size: 1.7rem;
+  margin-bottom: 0.2rem;
+}
+
+.get-started p {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.get-started .lead {
+  margin-top: 0;
+  font-size: 0.8rem;
+  margin-bottom: auto;
+}
+
+.get-started input {
+  margin: auto;
+  width: 17%;
+  padding-left: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+#how-we-rock {
+  padding-left: 3rem;
+  text-align: center;
+  margin: auto;
+}
+
+#how-we-rock #video {
+  width: 600px;
+  height: 340px;
+}
+
+#features {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  padding: 5rem;
+  background-color: rgb(82, 117, 111);
+}
+
+#features .feature {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#features .feature i {
+  color: rgb(195, 216, 212);
+}
+
+#features .feature div {
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+#feature .feature div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0.2rem;
+}
+
+.price-box {
+  border: solid rgb(74, 95, 94) 3px;
+  border-radius: 2px;
+  text-align: center;
+  width: calc(100% / 4);
+}
+
+.price-box:first-child {
+  margin-right: 1.2rem;
+}
+
+.price-box:last-child {
+  margin-left: 1.2rem;
+}
+
+.price-box h3 {
+  background-color: rgb(171, 216, 208);
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+.price-box h2 {
+  padding: 1rem;
+}
+
+.price-box p {
+  padding: 0 2rem 1rem;
+}
+
+.price-box .btn {
+  display: inline-block;
+  margin: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*FOOTER*/
+
+#main-footer {
+  background-color: rgb(195, 216, 212);
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#main-footer div a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/*TABLETS AND SMARTPHONES*/
+@media only screen and (max-width: 800px) {
+  #nav-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.3rem;
+  }
+
+  #navbar ul .nav-link {
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+
+  #features .feature {
+    flex-direction: column;
+  }
+
+  #features .feature div {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  #features .feature div {
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  #how-we-rock {
+    padding: 1rem;
+  }
+
+  #how-we-rock #video {
+    width: 80%;
+    height: 30%;
+  }
+
+  #pricing {
+    flex-direction: column;
+  }
+
+  #pricing .price-box {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .price-box:first-child {
+    margin-right: 0;
+  }
+
+  .price-box:last-child {
+    margin-left: 0;
+  }
+
+  .logo {
+    float: unset;
+  }
+
+  #main-footer {
+    padding: 2.5rem 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
