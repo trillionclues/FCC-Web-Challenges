@@ -10,7 +10,7 @@ Here are some of the challenges I've completed so far:
   </li>
   
     <li>
-    <a href="https://github.com/trillionclues/Freecodecamp-challenges/tree/main/FCC%20Technical%20Documentation%20Page">Technical Documentation Page</a>
+    <a href="https://github.com/trillionclues/Freecodecamp-challenges/tree/main/FCC%20Technical%20Documentation%20Page">Technical Documentation</a>
   </li>
   
   <li>
