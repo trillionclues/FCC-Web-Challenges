@@ -9,10 +9,6 @@ Here are some of the challenges I've completed so far:
     <a href="https://github.com/trillionclues/Freecodecamp-challenges/tree/main/FCC%20Product%20Landing%20Page">Product Landing Page</a>
   </li>
   
-    <li>
-    <a href="https://github.com/trillionclues/Freecodecamp-challenges/tree/main/FCC%20Technical%20Documentation%20Page">Technical Documentation</a>
-  </li>
-  
   <li>
     <a href="https://github.com/trillionclues/Freecodecamp-challenges/tree/main/NYSC%20survey%20form">NYSC Survey Page</a>
   </li>
